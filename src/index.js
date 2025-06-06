@@ -1,13 +1,27 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Nav from './components/Nav';
+import Hero from './components/Hero';
+import AboutUs from './components/AboutUs';
+import Services from './components/Services';
+import Footer from './components/Footer';
+import Slider from './components/Slider';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import ContactForm from './components/ContactForm';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Nav />
+    <Slider />
+    <Hero />
+    <AboutUs />
+    <Services />
+    <ContactForm />
+    <Footer />
   </React.StrictMode>
 );
 

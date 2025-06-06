@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+#carouselExampleIndicators {
+  max-height: 600px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.services-img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin: 0 auto;
+}
