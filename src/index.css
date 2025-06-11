@@ -26,3 +26,16 @@ code {
   object-fit: cover;
   margin: 0 auto;
 }
+
+.custom-navbar {
+  background-color: rgb(255, 255, 255, 1) !important; /* opaco al inicio */
+  transition: background-color 0.3s ease;
+}
+
+.custom-navbar.scrolled {
+  background-color: rgba(255, 255, 255, 0.8) !important; /* semi-transparente al hacer scroll */
+}
+
+.custom-navbar.scrolled:hover {
+  background-color: rgba(255, 255, 255, 1) !important;
+}

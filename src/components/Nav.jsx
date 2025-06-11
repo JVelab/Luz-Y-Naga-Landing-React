@@ -2,7 +2,7 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <nav className="navbar navbar-expand-lg navbar-light sticky-top custom-navbar">
       <div className="container-fluid">
         {/* Mobile: Logo left, toggler right */}
         <div className="d-flex d-lg-none w-100 align-items-center justify-content-between">
